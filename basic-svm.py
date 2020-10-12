@@ -37,7 +37,7 @@ for i in range(0, 150):
 
 	i += 1
 
-print(cat)
+#print(cat)
 
 #x = np.array(x)
 #y = np.array(y)
@@ -51,19 +51,19 @@ print(cat)
 var = list(zip(x, y))
 var = pd.DataFrame(var)
 
-print(cat)
+#print(cat)
 
 cat = np.array(cat)
 
-print(cat)
+#print(cat)
 
-print(type(var))
-print(type(cat))
+#print(type(var))
+#print(type(cat))
 
 log_fit = LogisticRegression()
 log_fit.fit(var, cat)
 
-px, py = np.mgrid[-5:5:.01, -5:5:.01]
+px, py = np.mgrid[-1:1:.01, -1:1:.01]
 grid = np.c_[px.ravel(), py.ravel()]
 probs = log_fit.predict_proba(grid)[:, 1]
 
@@ -75,7 +75,7 @@ svm_fit.fit(var, cat)
 
 df = pd.DataFrame(list(zip(x, y, cat)), columns = ['x', 'y', 'cat'])
 
-print(df.head())
+#print(df.head())
 
 groups = df.groupby('cat')
 
@@ -99,11 +99,13 @@ plt.plot(xx, yy, 'k-')
 #theta = theta[:,0]  # Make theta a 1-d array.
 #y = -(theta[0] + theta[1]*x)/theta[2]
 
-ax.contour(px, py, probs, levels=[.5], cmap="Greys", vmin=0, vmax=.6)
+#print(type(probs))
+
+#ax.contour(px, py, probs, levels = [.5], cmap = "Greys", vmin = 0, vmax = 0.6)
 
 plt.show()
 
-print(log_fit)
+#print(log_fit)
 
 
 
