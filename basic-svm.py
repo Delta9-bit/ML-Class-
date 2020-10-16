@@ -63,7 +63,7 @@ cat = np.array(cat)
 log_fit = LogisticRegression()
 log_fit.fit(var, cat)
 
-px, py = np.mgrid[-1:1:.01, -1:1:.01]
+px, py = np.mgrid[-0.05:1:.01, -0.05:1:.01]
 grid = np.c_[px.ravel(), py.ravel()]
 probs = log_fit.predict_proba(grid)[:, 1].reshape(px.shape)
 
