@@ -47,7 +47,6 @@ px, py = np.mgrid[-0.05:1:.01, -0.05:1:.01]
 grid = np.c_[px.ravel(), py.ravel()]
 probs = log_fit.predict_proba(grid)[:, 1].reshape(px.shape)
 
-#svm_fit = svm.SVC(gamma = 0.001, C = 1000, kernel = 'linear')
 svm_fit = svm.SVC(gamma = 0.001, C = 1000)
 svm_fit.fit(var, cat)
 
@@ -70,8 +69,6 @@ yy = a * xx - (svm_fit.intercept_[0]) / w[1]
 plt.ylim(0, 1.5)
 
 plt.plot(xx, yy, 'k-', color = 'blue')
-
-
 
 ax.contour(px, py, probs, levels = [.5], cmap = "Greys", vmin = 0, vmax = 0.6)
 
