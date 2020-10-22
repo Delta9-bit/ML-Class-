@@ -75,9 +75,6 @@ for i, clf in enumerate((lin_model, gauss_model)):
 	Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
 	Z = Z.reshape(xx.shape)
 	plt.contourf(xx, yy, Z, cmap=plt.cm.coolwarm)
-	plt.scatter(var[:, 0], var[:, 1], c=cat, cmap=plt.cm.RdBu,
-				s=50, alpha=1, edgecolor='k')
+	plt.scatter(var[:, 0], var[:, 1], c=cat, cmap=plt.cm.RdBu, s=50, alpha=1, edgecolor='k')
 
 plt.show()
-
-# Test Git
