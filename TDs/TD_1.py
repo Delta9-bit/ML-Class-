@@ -20,9 +20,9 @@ spec = svm.SVC(kernel='linear')
 fit = spec.fit(X_train, y_train)
 
 param_grid = {
-    'C' : [1, 10, 100],
-    'gamma' : [0.1, 0.01, 0.001],
-    'kernel' : ['rbf']}
+    'C': [1, 10, 100],
+    'gamma': [0.1, 0.01, 0.001],
+    'kernel': ['rbf']}
 
 model = svm.SVC()
 grid_spec = GridSearchCV(model, param_grid)
@@ -33,3 +33,5 @@ pred_rbf = grid_spec.predict(X_test)
 
 print(metrics.classification_report(pred_lin, y_test))
 print(metrics.classification_report(pred_rbf, y_test))
+
+print(model_selection.cross_val_score(grid_spec, images, target))
