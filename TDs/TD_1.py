@@ -8,9 +8,9 @@ print(data.data.shape)
 
 print(type(data.data))
 
-#plt.gray()
-#plt.matshow(data.images[0])
-#plt.show()
+# plt.gray()
+# plt.matshow(data.images[0])
+# plt.show()
 images = data.data
 target = data.target
 
@@ -26,7 +26,7 @@ param_grid = {
 
 model = svm.SVC()
 grid_spec = GridSearchCV(model, param_grid)
-fit = grid_spec.fit(X_train, y_train)
+grid_fit = grid_spec.fit(X_train, y_train)
 
 pred_lin = spec.predict(X_test)
 pred_rbf = grid_spec.predict(X_test)
