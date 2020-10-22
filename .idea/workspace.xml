@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM_kernels_visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM_kernels_visualisation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603359264993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test git">
+      <created>1603359732365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603359732365</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test git">
+      <created>1603359774027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603359774027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test git" />
@@ -187,10 +201,10 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="9" y="104" key="SettingsEditor/0.22.1440.878@0.22.1440.878" timestamp="1603359712170" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603359630293">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603359778251">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1603359630293" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1603359778251" />
     <state x="418" y="31" width="615" height="822" key="find.popup" timestamp="1603355148115">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
