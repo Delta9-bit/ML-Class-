@@ -79,3 +79,5 @@ for i, clf in enumerate((lin_model, gauss_model)):
 				s=50, alpha=1, edgecolor='k')
 
 plt.show()
+
+# Test Git
