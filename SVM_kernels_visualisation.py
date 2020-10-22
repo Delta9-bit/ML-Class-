@@ -76,6 +76,6 @@ for i, clf in enumerate((lin_model, gauss_model)):
 	Z = Z.reshape(xx.shape)
 	plt.contourf(xx, yy, Z, cmap=plt.cm.coolwarm)
 	plt.scatter(var[:, 0], var[:, 1], c=cat, cmap=plt.cm.RdBu,
-					s=50, alpha=1, edgecolor='k')
+				s=50, alpha=1, edgecolor='k')
 
 plt.show()
