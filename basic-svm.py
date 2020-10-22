@@ -16,12 +16,12 @@ from matplotlib import pyplot as plt
 rd.seed(1)
 
 i = 0
-cat =[]
+cat = []
 x = []
 y = []
 
 for i in range(0, 150):
-	f =  rd.randrange(0, 1000, 1) / 1000
+	f = rd.randrange(0, 1000, 1) / 1000
 	x.append(f)
 
 	if f > 0.5:
@@ -47,18 +47,18 @@ px, py = np.mgrid[-0.05:1:.01, -0.05:1:.01]
 grid = np.c_[px.ravel(), py.ravel()]
 probs = log_fit.predict_proba(grid)[:, 1].reshape(px.shape)
 
-svm_fit = svm.SVC(gamma = 0.001, C = 1000)
+svm_fit = svm.SVC(gamma=0.001, C=1000)
 svm_fit.fit(var, cat)
 
 
-df = pd.DataFrame(list(zip(x, y, cat)), columns = ['x', 'y', 'cat'])
+df = pd.DataFrame(list(zip(x, y, cat)), columns=['x', 'y', 'cat'])
 
 groups = df.groupby('cat')
 
 fig, ax = plt.subplots()
 
 for cat, group in groups:
-    ax.plot(group.x, group.y, marker = 'o', linestyle = '', ms = 5, label = cat)
+	ax.plot(group.x, group.y, marker='o', linestyle='', ms=5, label=cat)
 ax.legend()
 
 w = svm_fit.coef_[0]
@@ -70,7 +70,7 @@ plt.ylim(0, 1.5)
 
 plt.plot(xx, yy, 'k-', color = 'blue')
 
-ax.contour(px, py, probs, levels = [.5], cmap = "Greys", vmin = 0, vmax = 0.6)
+ax.contour(px, py, probs, levels=[.5], cmap="Greys", vmin=0, vmax=0.6)
 
 plt.show()
 
