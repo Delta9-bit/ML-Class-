@@ -7,6 +7,7 @@ data = datasets.load_digits()
 print(data.data.shape)
 
 print(type(data.data))
+print(data.data)
 
 # plt.gray()
 # plt.matshow(data.images[0])

@@ -20,58 +20,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
-      <change afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sampling_Distributions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/00-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/01-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/02-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/03-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/04-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/05-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/06-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/07-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/08-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/09-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/10-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/11-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/12-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/13-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/14-192x192-462.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/15-192x192-452.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/00-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/01-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/02-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/03-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/04-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/05-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/06-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/07-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/08-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/09-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/10-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/11-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/12-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/13-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/14-192x192-798.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/15-192x192-783.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/00-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/01-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/02-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/03-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/04-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/05-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/06-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/07-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/08-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/09-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/10-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/11-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/12-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/13-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/14-192x192-232.tfrec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/15-192x192-232.tfrec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Class-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Class-.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/00-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/01-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/02-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/03-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/04-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/05-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/06-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/07-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/08-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/09-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/10-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/11-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/12-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/13-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/14-192x192-462.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/test/15-192x192-452.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/00-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/01-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/02-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/03-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/04-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/05-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/06-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/07-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/08-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/09-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/10-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/11-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/12-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/13-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/14-192x192-798.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/train/15-192x192-783.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/00-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/01-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/02-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/03-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/04-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/05-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/06-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/07-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/08-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/09-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/10-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/11-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/12-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/13-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/14-192x192-232.tfrec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Kaggle/val/15-192x192-232.tfrec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TD_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TD_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/00-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/01-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/02-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/03-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/04-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/05-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/06-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/07-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/08-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/09-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/10-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/11-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/12-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/13-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/14-192x192-462.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/test/15-192x192-452.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/00-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/01-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/02-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/03-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/04-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/05-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/06-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/07-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/08-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/09-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/10-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/11-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/12-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/13-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/14-192x192-798.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/train/15-192x192-783.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/00-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/01-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/02-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/03-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/04-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/05-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/06-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/07-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/08-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/09-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/10-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/11-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/12-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/13-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/14-192x192-232.tfrec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfrecords-jpeg-192x192/val/15-192x192-232.tfrec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +213,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TD_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Class-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TD_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ML-Class-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,10 +259,12 @@
       <item itemvalue="Python.SVM_kernels_visualisation" />
       <item itemvalue="Python.Sampling_Distributions" />
       <item itemvalue="Python.Projet" />
+      <item itemvalue="Python.TD_1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Projet" />
+        <item itemvalue="Python.TD_1" />
         <item itemvalue="Python.SVM_kernels_visualisation" />
         <item itemvalue="Python.Sampling_Distributions" />
       </list>
@@ -255,36 +325,40 @@
     <option name="LAST_COMMIT_MESSAGE" value="test git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604502415046">
+    <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604951323559">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="-1116" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1603744758250" />
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604502415046" />
+    <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604951323559" />
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604945840324" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603355063839" />
     <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1604431629075">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1603744833444" />
     <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604431629075" />
-    <state width="638" height="927" key="GridCell.Tab.0.bottom" timestamp="1604509345937">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1604955471941">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604509345937" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604955471941" />
+    <state width="1274" height="927" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
     <state width="1419" height="157" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
-    <state width="638" height="927" key="GridCell.Tab.0.center" timestamp="1604509345937">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1604955471941">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604509345937" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604955471941" />
+    <state width="1274" height="927" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
     <state width="1419" height="157" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="638" height="927" key="GridCell.Tab.0.left" timestamp="1604509345937">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1604955471941">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604509345937" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604955471941" />
+    <state width="1274" height="927" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
     <state width="1419" height="157" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="638" height="927" key="GridCell.Tab.0.right" timestamp="1604509345937">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1604955471941">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604509345937" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604955471941" />
+    <state width="1274" height="927" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
     <state width="1419" height="157" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
     <state width="1419" height="170" key="GridCell.Tab.1.bottom" timestamp="1603359068761">
       <screen x="0" y="22" width="1440" height="878" />
@@ -302,11 +376,11 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state width="1419" height="170" key="GridCell.Tab.1.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068760" />
-    <state x="-1084" y="135" width="998" height="708" key="SettingsEditor" timestamp="1604502673419">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state x="231" y="20" width="998" height="708" key="SettingsEditor" timestamp="1604949197694">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="-1272" y="83" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1603744994149" />
-    <state x="-1084" y="135" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604502673419" />
+    <state x="231" y="20" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604949197694" />
+    <state x="-1084" y="135" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946614115" />
     <state x="9" y="104" key="SettingsEditor/0.22.1440.878@0.22.1440.878" timestamp="1603359712170" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603359778251">
       <screen x="0" y="22" width="1440" height="878" />
