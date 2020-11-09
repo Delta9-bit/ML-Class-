@@ -1,6 +1,6 @@
 import numpy as np
 import os
-from sklearn import svm
+from sklearn import svm, metrics
 from sklearn.model_selection import GridSearchCV
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -11,7 +11,7 @@ import base64
 import io
 
 data = pdtfr.tfrecords_to_pandas("Data/Kaggle/train/00-192x192-798.tfrec.")
-
+datatest = pdtfr.tfrecords_to_pandas("Data/Kaggle/val/00-192x192-232.tfrec.")
 
 def stringToRGB(base64_string):
     image = io.BytesIO(base64_string)
@@ -19,24 +19,56 @@ def stringToRGB(base64_string):
     return Image.open(image)
 
 
-a = data['image'][42]
+def imgShow(data):
+    a = data['image'][42]
+    a = stringToRGB(a)
+    a.show()
+    a = a.convert('L')
+    a.show()
+    a = np.asarray(a)
+    a = a.flatten('F')
+    print(a)
+    print(a.shape)
+#imgShow(datatest)
 
-a = stringToRGB(a)
 
-# a.show()
-a = np.asarray(a.convert('LA'))
+def featureExtraction(data, datatest):
+    global label, features, features_test, label_test
+    label = []
+    features = []
+    features_test = []
+    label_test = []
 
-label = data['class']
+    for i in range(0, len(data)):
+        classes = str(data['class'][i])
+        label.append(classes)
 
-features = []
+    for i in range(0, len(data)):
+        image = stringToRGB(data['image'][i])
+        image = np.asarray(image.convert('L'))
+        image = image.flatten('F')
+        features.append(image)
 
-for i in range(1, len(data)):
-    image = stringToRGB(data['image'][i])
-    image = np.asarray(image.convert('LA'))
-    features.append(image)
+    for i in range(0, len(datatest)):
+        classes_test = str(datatest['class'][i])
+        label_test.append(classes_test)
 
-features = np.array(features)
+    for i in range(0, len(datatest)):
+        image_test = stringToRGB(datatest['image'][i])
+        image_test = np.asarray(image_test.convert('L'))
+        image_test = image_test.flatten('F')
+        features_test.append(image)
 
-print(features)
-print(type(features))
+    features = np.array(features)
+    features_test = np.array(features_test)
+    label = np.array(label)
+    label_test = np.array(label_test)
 
+
+featureExtraction(data, datatest)
+
+spec = svm.SVC(kernel='linear')
+fit = spec.fit(features, label)
+
+pred = spec.predict(features_test)
+print(metrics.classification_report(pred, label_test))

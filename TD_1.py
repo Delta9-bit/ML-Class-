@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 data = datasets.load_digits()
 
 print(data.data.shape)
+print(data.target.shape)
+print(type(data.target))
 
 print(type(data.data))
 print(data.data)
