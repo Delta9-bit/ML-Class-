@@ -1,6 +1,6 @@
 from sklearn import datasets, metrics, model_selection, svm
 from sklearn.model_selection import GridSearchCV
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 data = datasets.load_digits()
 

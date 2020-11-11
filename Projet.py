@@ -2,15 +2,21 @@ import numpy as np
 import os
 from sklearn import svm, metrics
 from sklearn.model_selection import GridSearchCV
-import matplotlib.pyplot as plt
+#
 import pandas as pd
 import pandas_tfrecords as pdtfr
 from PIL import Image
 import cv2
 import base64
 import io
+from _datetime import datetime
+
+startTime = datetime.now()
 
 data = pdtfr.tfrecords_to_pandas("Data/Kaggle/train/00-192x192-798.tfrec.")
+data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/01-192x192-798.tfrec."), ignore_index=True)
+data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/02-192x192-798.tfrec."), ignore_index=True)
+data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/03-192x192-798.tfrec."), ignore_index=True)
 datatest = pdtfr.tfrecords_to_pandas("Data/Kaggle/val/00-192x192-232.tfrec.")
 
 def stringToRGB(base64_string):
@@ -67,8 +73,17 @@ def featureExtraction(data, datatest):
 
 featureExtraction(data, datatest)
 
+print("aa")
+
+label = label.astype(np.int)
+label_test = label_test.astype(np.int)
+
 spec = svm.SVC(kernel='linear')
 fit = spec.fit(features, label)
 
+print("aa")
+
 pred = spec.predict(features_test)
 print(metrics.classification_report(pred, label_test))
+
+print(datetime.now() - startTime)

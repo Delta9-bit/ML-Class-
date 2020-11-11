@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TD_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TD_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,9 +156,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Projet" />
       <item itemvalue="Python.SVM_kernels_visualisation" />
       <item itemvalue="Python.Sampling_Distributions" />
-      <item itemvalue="Python.Projet" />
       <item itemvalue="Python.TD_1" />
     </list>
     <recent_temporary>
@@ -235,10 +231,10 @@
     <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1604951323559" />
     <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604945840324" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603355063839" />
-    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1604431629075">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="-994" y="195" key="FileChooserDialogImpl" timestamp="1605114123445">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1603744833444" />
+    <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605114123445" />
     <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604431629075" />
     <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1604960055162">
       <screen x="-1280" y="-9" width="1280" height="984" />
