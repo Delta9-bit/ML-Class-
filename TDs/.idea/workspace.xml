@@ -206,11 +206,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.Projet" />
       <item itemvalue="Python.SVM_kernels_visualisation" />
-      <item itemvalue="Python.TD_1" />
       <item itemvalue="Python.Scoring" />
+      <item itemvalue="Python.TD_1" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
