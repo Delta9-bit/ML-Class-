@@ -19,11 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80b6c194-de2d-48fb-b6cc-b571796d8c1e" name="Default Changelist" comment="" />
+    <list default="true" id="80b6c194-de2d-48fb-b6cc-b571796d8c1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TD2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SVM_kernels_visualisation.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -55,7 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Scoring">
+  <component name="RunManager" selected="Python.TD2">
     <configuration name="Projet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TDs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +94,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -111,6 +121,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Cours/Scoring/Scoring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TD2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TDs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TD2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,19 +235,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.Projet" />
       <item itemvalue="Python.SVM_kernels_visualisation" />
       <item itemvalue="Python.Scoring" />
       <item itemvalue="Python.TD_1" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.TD2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TD2" />
+        <item itemvalue="Python.SVM_kernels_visualisation" />
         <item itemvalue="Python.Scoring" />
         <item itemvalue="Python.Projet" />
         <item itemvalue="Python.TD_1" />
-        <item itemvalue="Python.TD_1" />
-        <item itemvalue="Python.SVM_kernels_visualisation" />
       </list>
     </recent_temporary>
   </component>
@@ -251,10 +283,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1116" y="104" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605169898877">
+    <state x="-1116" y="104" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605715821800">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state x="-1116" y="104" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605169898877" />
+    <state x="-1116" y="104" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605715821800" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603746414781" />
     <state x="-1188" y="83" width="1096" height="800" key="DiffContextDialog" timestamp="1605117297305">
       <screen x="-1280" y="-9" width="1280" height="984" />
@@ -264,29 +296,29 @@
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
     <state x="-851" y="197" key="EnvironmentVariablesDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605118036745" />
-    <state x="-860" y="238" key="FileChooserDialogImpl" timestamp="1605197894696">
+    <state x="-860" y="238" key="FileChooserDialogImpl" timestamp="1605712391180">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state x="-860" y="238" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605197894696" />
-    <state width="638" height="927" key="GridCell.Tab.0.bottom" timestamp="1605203508224">
+    <state x="-860" y="238" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605712391180" />
+    <state width="638" height="927" key="GridCell.Tab.0.bottom" timestamp="1605720680372">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605203508224" />
+    <state width="638" height="927" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605720680372" />
     <state width="1419" height="165" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1603411647469" />
-    <state width="638" height="927" key="GridCell.Tab.0.center" timestamp="1605203508224">
+    <state width="638" height="927" key="GridCell.Tab.0.center" timestamp="1605720680372">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605203508224" />
+    <state width="638" height="927" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605720680372" />
     <state width="1419" height="165" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1603411647468" />
-    <state width="638" height="927" key="GridCell.Tab.0.left" timestamp="1605203508223">
+    <state width="638" height="927" key="GridCell.Tab.0.left" timestamp="1605720680372">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605203508223" />
+    <state width="638" height="927" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605720680372" />
     <state width="1419" height="165" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1603411647468" />
-    <state width="638" height="927" key="GridCell.Tab.0.right" timestamp="1605203508224">
+    <state width="638" height="927" key="GridCell.Tab.0.right" timestamp="1605720680372">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="638" height="927" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605203508224" />
+    <state width="638" height="927" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1605720680372" />
     <state width="1419" height="165" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1603411647469" />
     <state width="1419" height="286" key="GridCell.Tab.1.bottom" timestamp="1603411647427">
       <screen x="0" y="22" width="1440" height="878" />
