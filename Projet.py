@@ -46,7 +46,7 @@ def resize(image):
 
 
 def imgShow(data):
-    a = data['image'][42]
+    a = data['image'][50]
     a = stringToRGB(a)
     a.show()
     a = a.convert('L')
@@ -55,7 +55,7 @@ def imgShow(data):
     a = a.flatten('F')
     print(a)
     print(a.shape)
-#imgShow(datatest)
+imgShow(datatest)
 
 
 def featureExtraction(data, datatest):

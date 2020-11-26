@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
-      <change afterPath="$PROJECT_DIR$/TD3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Class-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Class-.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM_kernels_visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM_kernels_visualisation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TDs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDs/TD2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TDs/TD2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projet.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TD3.py" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -197,8 +191,8 @@
       <item itemvalue="Python.Projet" />
       <item itemvalue="Python.SVM_kernels_visualisation" />
       <item itemvalue="Python.Sampling_Distributions" />
-      <item itemvalue="Python.TD_1" />
       <item itemvalue="Python.TD3" />
+      <item itemvalue="Python.TD_1" />
     </list>
     <recent_temporary>
       <list>
@@ -271,10 +265,10 @@
     <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606322757648" />
     <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604945840324" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603355063839" />
-    <state x="-994" y="195" key="FileChooserDialogImpl" timestamp="1606327651582">
+    <state x="-994" y="195" key="FileChooserDialogImpl" timestamp="1606406153260">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606327651582" />
+    <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606406153260" />
     <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604431629075" />
     <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1606336679847">
       <screen x="-1280" y="-9" width="1280" height="984" />
