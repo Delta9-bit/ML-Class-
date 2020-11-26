@@ -78,3 +78,10 @@ for i, clf in enumerate((lin_model, gauss_model)):
 	plt.scatter(var[:, 0], var[:, 1], c=cat, cmap=plt.cm.RdBu, s=50, alpha=1, edgecolor='k')
 
 plt.show()
+
+dim = 2  # Dimension of X1, X2.
+X1 = [[2 * x, 5] for x in range(100)]
+y1 = [0 for x in range(100)]
+X2 = [[2 * x + 1, -5] for x in range(100)]
+y2 = [1 for x in range(100)]
+

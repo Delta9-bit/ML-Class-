@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import time
 from sklearn.neural_network import MLPClassifier
+from sklearn.model_selection import cross_val_score
 
 X = [0, 1, 2, 3, 4, 5]
 
@@ -39,6 +40,9 @@ print(time.time() - start_time)
 
 print(confusion_matrix(lab, svm_pred))
 print(confusion_matrix(lab, MLP_pred))
+
+scores = cross_val_score(svm_classifier, X, lab)
+scores
 
 X = []
 
@@ -99,3 +103,4 @@ print(time.time() - start_time)
 
 print(confusion_matrix(lab, lab))
 print(confusion_matrix(lab, MLP_pred))
+
