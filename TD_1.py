@@ -1,12 +1,15 @@
 from sklearn import datasets, metrics, model_selection, svm
 from sklearn.model_selection import GridSearchCV
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 data = datasets.load_digits()
 
 print(data.data.shape)
+print(data.target.shape)
+print(type(data.target))
 
 print(type(data.data))
+print(data.data)
 
 # plt.gray()
 # plt.matshow(data.images[0])
