@@ -49,18 +49,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TD3.py" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="ML-Class-" sdk-home="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe">
+      <console-settings module-name="ML-Class-" sdk-home="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" working-directory="$PROJECT_DIR$">
         <option name="mySdkHome" value="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" />
         <option name="myModuleName" value="ML-Class-" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Projet">
+  <component name="RunManager" selected="Python.SVM_kernels_visualisation">
     <configuration name="Projet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Class-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,9 +90,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_HOME" value="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM_kernels_visualisation.py" />
@@ -196,10 +197,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SVM_kernels_visualisation" />
         <item itemvalue="Python.Projet" />
         <item itemvalue="Python.TD_1" />
         <item itemvalue="Python.TD3" />
-        <item itemvalue="Python.SVM_kernels_visualisation" />
         <item itemvalue="Python.Sampling_Distributions" />
       </list>
     </recent_temporary>
@@ -259,40 +260,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="test git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606322757648">
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606568080245">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606322757648" />
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604945840324" />
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568080245" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603355063839" />
-    <state x="-994" y="195" key="FileChooserDialogImpl" timestamp="1606406153260">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state x="462" y="69" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1606568733552">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="462" y="69" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568733552" />
+    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1606568103185">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606406153260" />
-    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604431629075" />
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1606336679847">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568103185" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1606569966319">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1274" height="927" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606569966319" />
     <state width="1419" height="157" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
-    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1606336679847">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1606569966319">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1274" height="927" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606569966319" />
     <state width="1419" height="157" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1606336679847">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1606569966319">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1274" height="927" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606569966319" />
     <state width="1419" height="157" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1606336679847">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1606569966319">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1274" height="927" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946728771" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606569966319" />
     <state width="1419" height="157" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
     <state width="1419" height="170" key="GridCell.Tab.1.bottom" timestamp="1603359068761">
       <screen x="0" y="22" width="1440" height="878" />
@@ -310,16 +315,20 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state width="1419" height="170" key="GridCell.Tab.1.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068760" />
-    <state x="231" y="20" width="998" height="708" key="SettingsEditor" timestamp="1606327330680">
+    <state x="135" y="0" width="998" height="708" key="SettingsEditor" timestamp="1606568759917">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="231" y="20" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606327330680" />
-    <state x="-1084" y="135" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1604946614115" />
+    <state x="135" y="0" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568759917" />
     <state x="9" y="104" key="SettingsEditor/0.22.1440.878@0.22.1440.878" timestamp="1603359712170" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603359778251">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1603359778251" />
+    <state x="489" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606574973857">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="489" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606574973857" />
     <state x="0" y="0" width="1275" height="765" maximized="true" key="dock-window-1" timestamp="1606326452552">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

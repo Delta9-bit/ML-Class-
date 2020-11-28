@@ -10,6 +10,7 @@ import cv2
 import base64
 import io
 from _datetime import datetime
+import matplotlib.pyplot as plt
 
 data = pdtfr.tfrecords_to_pandas("Data/Kaggle/train/00-192x192-798.tfrec.")
 data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/01-192x192-798.tfrec."), ignore_index=True)
@@ -29,6 +30,31 @@ data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/14-192x192-798.t
 data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/15-192x192-783.tfrec."), ignore_index=True)
 datatest = pdtfr.tfrecords_to_pandas("Data/Kaggle/val/00-192x192-232.tfrec.")
 
+np.set_printoptions(threshold=np.inf)
+pd.set_option('display.max_rows', 1000)
+
+count = data.groupby('class').count()
+print(count)
+
+
+def labelReduction (data):
+    count = data.groupby('class').count()
+    count.reset_index(level=0, inplace=True)
+    classes = []
+
+    for i in range(0, 104):
+        if count['id'][i]  > 200:
+            var = count['class'][i]
+            classes.append(var)
+
+    print(classes)
+
+    for i in range(0, len(data['class'])):
+        if not data['class'][i] in classes:
+            print(i, 'not in classes')
+            data.drop([i], inplace = True)
+        else:
+            print(i, 'in classes')
 
 def stringToRGB(base64_string):
     image = io.BytesIO(base64_string)
@@ -55,7 +81,6 @@ def imgShow(data):
     a = a.flatten('F')
     print(a)
     print(a.shape)
-imgShow(datatest)
 
 
 def featureExtraction(data, datatest):
@@ -92,6 +117,8 @@ def featureExtraction(data, datatest):
     label = np.array(label)
     label_test = np.array(label_test)
 
+
+imgShow(datatest)
 
 featureExtraction(data, datatest)
 
