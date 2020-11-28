@@ -51,10 +51,10 @@ def labelReduction (data):
 
     for i in range(0, len(data['class'])):
         if not data['class'][i] in classes:
-            print(i, 'not in classes')
             data.drop([i], inplace = True)
         else:
-            print(i, 'in classes')
+            print(data['class'][i])
+
 
 def stringToRGB(base64_string):
     image = io.BytesIO(base64_string)
@@ -90,22 +90,22 @@ def featureExtraction(data, datatest):
     features_test = []
     label_test = []
 
-    for i in range(1, len(data)):
+    for i in range(0, len(data)):
         classes = str(data['class'][i])
         label.append(classes)
 
-    for i in range(1, len(data)):
+    for i in range(0, len(data)):
         image = stringToRGB(data['image'][i])
         image = resize(image)
         image = np.asarray(image.convert('L'))
         image = image.flatten('F')
         features.append(image)
 
-    for i in range(1, len(datatest)):
+    for i in range(0, len(datatest)):
         classes_test = str(datatest['class'][i])
         label_test.append(classes_test)
 
-    for i in range(1, len(datatest)):
+    for i in range(0, len(datatest)):
         image_test = stringToRGB(datatest['image'][i])
         image_test = resize(image_test)
         image_test = np.asarray(image_test.convert('L'))
@@ -119,6 +119,12 @@ def featureExtraction(data, datatest):
 
 
 imgShow(datatest)
+
+labelReduction(data)
+
+data.reset_index(inplace =True)
+
+print(data)
 
 featureExtraction(data, datatest)
 
