@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
+      <change afterPath="$PROJECT_DIR$/CNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,28 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Projet">
+  <component name="RunManager" selected="Python.CNN">
+    <configuration name="CNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-Class-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Lucas\Desktop\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Projet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML-Class-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,27 +117,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM_kernels_visualisation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Sampling_Distributions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ML-Class-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sampling_Distributions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,17 +191,17 @@
     <list>
       <item itemvalue="Python.Projet" />
       <item itemvalue="Python.SVM_kernels_visualisation" />
-      <item itemvalue="Python.Sampling_Distributions" />
       <item itemvalue="Python.TD3" />
       <item itemvalue="Python.TD_1" />
+      <item itemvalue="Python.CNN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CNN" />
+        <item itemvalue="Python.TD_1" />
         <item itemvalue="Python.Projet" />
         <item itemvalue="Python.SVM_kernels_visualisation" />
-        <item itemvalue="Python.TD_1" />
         <item itemvalue="Python.TD3" />
-        <item itemvalue="Python.Sampling_Distributions" />
       </list>
     </recent_temporary>
   </component>
@@ -260,44 +260,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="test git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606568080245">
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003797676">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606322757648" />
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568080245" />
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607003797676" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603355063839" />
     <state x="462" y="69" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1606568733552">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="462" y="69" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568733552" />
-    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1606568103185">
+    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1606844456725">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606406153260" />
-    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568103185" />
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1606599170783">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606844456725" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1607023536248">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606599170783" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607004314279" />
     <state width="1419" height="157" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
-    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1606599170783">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1607023536248">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606599170783" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607004314279" />
     <state width="1419" height="157" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1606599170783">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1607023536248">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606599170783" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607004314279" />
     <state width="1419" height="157" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1606599170783">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1607023536248">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
-    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606336679847" />
-    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606599170783" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607004314279" />
     <state width="1419" height="157" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
     <state width="1419" height="170" key="GridCell.Tab.1.bottom" timestamp="1603359068761">
       <screen x="0" y="22" width="1440" height="878" />
@@ -337,16 +337,5 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="418" y="31" width="615" height="822" key="find.popup/0.22.1440.878@0.22.1440.878" timestamp="1603355148115" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TD_1.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
