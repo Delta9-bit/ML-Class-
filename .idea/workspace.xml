@@ -49,7 +49,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TD3.py" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNN.py" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -189,11 +190,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.CNN" />
       <item itemvalue="Python.Projet" />
       <item itemvalue="Python.SVM_kernels_visualisation" />
       <item itemvalue="Python.TD3" />
       <item itemvalue="Python.TD_1" />
-      <item itemvalue="Python.CNN" />
     </list>
     <recent_temporary>
       <list>
@@ -270,34 +271,38 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="462" y="69" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568733552" />
-    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1607171276463">
+    <state x="92" y="92" width="1176" height="544" key="DiffContextDialog" timestamp="1607385770970">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="92" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607385770970" />
+    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1607385990587">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606406153260" />
-    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607171276463" />
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1607182414653">
+    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607385990587" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1607378987694">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607182414653" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607378987694" />
     <state width="1419" height="157" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
-    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1607182414653">
+    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1607378987694">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
-    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607182414653" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607378987694" />
     <state width="1419" height="157" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1607182414653">
+    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1607378987694">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
-    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607182414653" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607378987694" />
     <state width="1419" height="157" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1607182414653">
+    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1607378987694">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607023536248" />
-    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607182414653" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607378987694" />
     <state width="1419" height="157" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
     <state width="1419" height="170" key="GridCell.Tab.1.bottom" timestamp="1603359068761">
       <screen x="0" y="22" width="1440" height="878" />
@@ -325,17 +330,22 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.22.1440.878@0.22.1440.878" timestamp="1603359778251" />
-    <state x="489" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606574973857">
+    <state x="489" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607384821858">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="489" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606574973857" />
-    <state x="0" y="0" width="1275" height="765" maximized="true" key="dock-window-1" timestamp="1606326452552">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="489" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607384821858" />
+    <state x="-1280" y="-9" width="1296" height="715" maximized="true" key="dock-window-1" timestamp="1607384884498">
+      <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
     <state x="0" y="0" width="1275" height="765" maximized="true" key="dock-window-1/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606326452552" />
+    <state x="-1280" y="-9" width="1296" height="715" maximized="true" key="dock-window-1/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607384884498" />
     <state x="418" y="31" width="615" height="822" key="find.popup" timestamp="1603355148115">
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state x="418" y="31" width="615" height="822" key="find.popup/0.22.1440.878@0.22.1440.878" timestamp="1603355148115" />
+    <state x="-977" y="202" width="672" height="678" key="search.everywhere.popup" timestamp="1607384739608">
+      <screen x="-1280" y="-9" width="1280" height="984" />
+    </state>
+    <state x="-977" y="202" width="672" height="678" key="search.everywhere.popup/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607384739608" />
   </component>
 </project>
