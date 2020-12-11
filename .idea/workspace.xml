@@ -50,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNN.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projet.py" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -275,11 +275,11 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="92" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607385770970" />
-    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1607385990587">
+    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1607517283936">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606406153260" />
-    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607385990587" />
+    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607517283936" />
     <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1607378987694">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

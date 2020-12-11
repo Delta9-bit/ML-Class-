@@ -179,53 +179,52 @@ keras_MLP.fit(features, label, epochs=10)
 
 runtime.append(datetime.now() - startTime)
 
-label = label.astype(int)
-label_test = label_test.astype(int)
+
+def processing(data, datatest):
+    features_CNN = np.zeros(shape = (2791, 24, 24, 3))
+    features_test_CNN = np.zeros(shape = (56, 24, 24, 3))
+
+    label = []
+    label_test = []
+
+    for i in range(0, len(data)):
+        image = stringToRGB(data['image'][i])
+        image = image.convert('RGB')
+        image = resize(image)
+        image = np.asarray(image)
+        features_CNN[i] = image
+        classes = str(data['class'][i])
+        label.append(classes)
+
+    for i in range(0, len(datatest)):
+        image_test = stringToRGB(datatest['image'][i])
+        image_test = image_test.convert('RGB')
+        image_test = resize(image_test)
+        image_test = np.asarray(image_test)
+        features_test_CNN[i] = image_test
+        classes = str(datatest['class'][i])
+        label_test.append(classes)
+
+    label = to_categorical(label)
+    label_test = to_categorical(label_test)
+
+    img_rows = 24
+    img_cols = 24
+
+    if K.image_data_format() == 'channels_first':
+        features_CNN = features_CNN.reshape(features_CNN.shape[0], 3, img_rows, img_cols)
+        features_test_CNN = features_test_CNN.reshape(features_test_CNN.shape[0], 3, img_rows, img_cols)
+        print(features_CNN.shape)
+        input_shape = (3, img_rows, img_cols)
+    else:
+        features_CNN = features_CNN.reshape(features_CNN.shape[0], img_rows, img_cols, 3)
+        features_test_CNN = features_test_CNN.reshape(features_test_CNN.shape[0], img_rows, img_cols, 3)
+        input_shape = (img_rows, img_cols, 3)
 
 
 # CNN
-
-# preprocessing
-features_CNN = np.zeros(shape = (2791, 24, 24, 3))
-features_test_CNN = np.zeros(shape = (56, 24, 24, 3))
-
-label = []
-label_test = []
-
-for i in range(0, len(data)):
-    image = stringToRGB(data['image'][i])
-    image = image.convert('RGB')
-    image = resize(image)
-    image = np.asarray(image)
-    features_CNN[i] = image
-    classes = str(data['class'][i])
-    label.append(classes)
-
-for i in range(0, len(datatest)):
-    image_test = stringToRGB(datatest['image'][i])
-    image_test = image_test.convert('RGB')
-    image_test = resize(image_test)
-    image_test = np.asarray(image_test)
-    features_test_CNN[i] = image_test
-    classes = str(datatest['class'][i])
-    label_test.append(classes)
-
-label = to_categorical(label)
-label_test = to_categorical(label_test)
-
-img_rows = 24
-img_cols = 24
-
-if K.image_data_format() == 'channels_first':
-    features_CNN = features_CNN.reshape(features_CNN.shape[0], 3, img_rows, img_cols)
-    features_test_CNN = features_test_CNN.reshape(features_test_CNN.shape[0], 3, img_rows, img_cols)
-    print(features_CNN.shape)
-    input_shape = (3, img_rows, img_cols)
-else:
-    features_CNN = features_CNN.reshape(features_CNN.shape[0], img_rows, img_cols, 3)
-    features_test_CNN = features_test_CNN.reshape(features_test_CNN.shape[0], img_rows, img_cols, 3)
-    input_shape = (img_rows, img_cols, 3)
-
+# preprocessing data
+processing(data, datatest)
 
 batch_size = 100
 epochs = 10
