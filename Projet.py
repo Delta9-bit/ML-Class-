@@ -39,9 +39,6 @@ datatest = pdtfr.tfrecords_to_pandas("Data/Kaggle/val/00-192x192-232.tfrec.")
 np.set_printoptions(threshold=np.inf) # in-console display options
 pd.set_option('display.max_rows', 1000) # in-console display options
 
-count = data.groupby('class').count()
-print(count)
-
 
 def labelReduction (data, datatest): # keeps every class with 200+ observations
     count = data.groupby('class').count()
@@ -160,7 +157,7 @@ runtime.append(datetime.now() - startTime)
 rbf_pred = grid_search.predict(features_test)
 print(metrics.classification_report(rbf_pred, label_test))
 
-# ANN
+# ANN (1 hidden layer, 20 neurons)
 label = label.astype(int)
 
 keras_MLP = tf.keras.Sequential([
@@ -180,7 +177,7 @@ keras_MLP.fit(features, label, epochs=10)
 runtime.append(datetime.now() - startTime)
 
 
-def processing(data, datatest):
+def CNNprocessing(data, datatest):
     features_CNN = np.zeros(shape = (2791, 24, 24, 3))
     features_test_CNN = np.zeros(shape = (56, 24, 24, 3))
 
@@ -222,14 +219,14 @@ def processing(data, datatest):
         input_shape = (img_rows, img_cols, 3)
 
 
-# CNN
+# standard CNN
 # preprocessing data
-processing(data, datatest)
+CNNprocessing(data, datatest)
 
-batch_size = 100
-epochs = 10
+batch_size = 100 # 100 data points fitted at each epoch
+epochs = 10 # total number of iterations
 
-CNN = tf.keras.Sequential()
+CNN = tf.keras.Sequential() # CNN (32 filters + 1 dense layer w/ 50 neurons)
 CNN.add(Conv2D(32, kernel_size=(3, 3),
                  activation='relu',
                  input_shape=(24, 24, 3))) # convolutional layer
@@ -237,7 +234,7 @@ CNN.add(Flatten())
 CNN.add(Dense(50, activation='relu')) # standard layer
 CNN.add(Dense(104, activation='softmax')) # classification layer
 
-CNN.compile(loss='categorical_crossentropy',
+CNN.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
             optimizer='adam',
             metrics=['accuracy'])
 
@@ -250,5 +247,33 @@ history = CNN.fit(features_CNN, label,
           verbose=2,
           validation_data=(features_test_CNN, label_test))
 score = CNN.evaluate(features_test_CNN, label_test, verbose=0)
+
+runtime.append(datetime.now() - startTime)
+
+# CNN multiple layers
+mult_CNN = Sequential()
+mult_CNN.add(Conv2D(32, kernel_size=(3, 3),
+                 activation='relu',
+                 input_shape=(24, 24, 3))) # First convolutional layer
+mult_CNN.add(Conv2D(64, (3, 3), activation='relu')) # Second convolutional layer
+mult_CNN.add(MaxPooling2D(pool_size=(2, 2))) # Max pooling / averaging values on 2*2 pixel grids
+mult_CNN.add(Dropout(0.25)) # dropping 25% of neurons to prevent overfitting
+mult_CNN.add(Flatten())
+mult_CNN.add(Dense(128, activation='relu')) # Standard dense layer w/ 128 neurons
+mult_CNN.add(Dropout(0.5)) # dropping 50% of neurons to prevent overfitting
+mult_CNN.add(Dense(4, activation='softmax'))
+mult_CNNl.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+              optimizer='adam',
+              metrics=['accuracy'])
+
+#fit
+startTime = datetime.now()
+
+history = mult_CNN.fit(features_CNN, label,
+          batch_size=batch_size,
+          epochs=epochs,
+          verbose=2,
+          validation_data=(features_test_CNN, label_test))
+score = mult_CNN.evaluate(features_test_CNN, label_test, verbose=0)
 
 runtime.append(datetime.now() - startTime)
