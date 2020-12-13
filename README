@@ -1,9 +1,9 @@
 This repository has been created for the Machine Learning class in Master 2 EKAP.
 Moriceau Laurianne and Aurouet Lucas will be working on the Kaggle project that follows: https://www.kaggle.com/c/tpu-getting-started
 
-* Projet.py is the entire python script that should be runned.
+* Projet.py is the entire python script that should be runned
 
-* Notebook.ipynb is a Jupyter notebook were each chunk of code is explained
+* Notebook.ipynb is a Jupyter notebook were each chunk of code is explained, as part of the assignment
 
 * Data contains train and test datasets
 
