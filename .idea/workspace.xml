@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Petals to the metal, Lucas Aurouet et Laurianne Moriceau -checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/notebook-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Petals to the metal, Lucas Aurouet et Laurianne Moriceau .ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
