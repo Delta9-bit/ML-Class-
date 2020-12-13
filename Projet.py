@@ -17,6 +17,7 @@ from tensorflow.keras.layers import Dense, Dropout, Flatten
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras import backend as K
 from tensorflow.keras.utils import to_categorical
+from mpl_toolkits import mplot3d
 
 data = pdtfr.tfrecords_to_pandas("Data/Kaggle/train/00-192x192-798.tfrec.")
 data = data.append(pdtfr.tfrecords_to_pandas("Data/Kaggle/train/01-192x192-798.tfrec."), ignore_index=True)
@@ -132,7 +133,7 @@ runtime = []
 # linear SVM
 startTime = datetime.now()
 
-lin_SVM = svm.SVC(kernel='linear', max_iter = 1000)
+lin_SVM = svm.SVC(kernel='linear')
 lin_SVM_fit = lin_SVM.fit(features, label)
 
 runtime.append(datetime.now() - startTime)
@@ -142,8 +143,8 @@ print(metrics.classification_report(lin_pred, label_test))
 
 # RBF SVM w/ gridsearch optimization
 grid = {
-	'C': [0.1, 1, 10, 100, 1000],
-	'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
+	'C': [0.1, 1, 10, 100],
+	'gamma': [1, 0.1, 0.01, 0.001],
 	'kernel': ['rbf']}
 
 startTime = datetime.now()
@@ -157,12 +158,26 @@ runtime.append(datetime.now() - startTime)
 rbf_pred = grid_search.predict(features_test)
 print(metrics.classification_report(rbf_pred, label_test))
 
+# gamma / c / error graph
+C = [0.1, 1, 10, 100]
+gamma = [1, 0.1, 0.01, 0.001]
+
+scores = [x[1] for x in grid_search.cv_results_]
+scores = np.array(scores).reshape(len(C), len(gamma))
+
+for ind, i in enumerate(C):
+    plt.plot(gamma, scores[ind], label='C: ' + str(i))
+plt.legend()
+plt.xlabel('Gamma')
+plt.ylabel('Mean score')
+plt.show()
+
 # ANN (1 hidden layer, 20 neurons)
 label = label.astype(int)
 
 keras_MLP = tf.keras.Sequential([
     tf.keras.layers.Dense(20, activation = 'relu'),
-    tf.keras.layers.Dense(104)]) # 1 hidden layer w/ 20 neurons
+    tf.keras.layers.Dense(5)]) # 1 hidden layer w/ 20 neurons
 
 startTime = datetime.now()
 
@@ -178,6 +193,8 @@ runtime.append(datetime.now() - startTime)
 
 
 def CNNprocessing(data, datatest):
+    global features_CNN, features_test_CNN, label, label_test, input_shape
+
     features_CNN = np.zeros(shape = (2791, 24, 24, 3))
     features_test_CNN = np.zeros(shape = (56, 24, 24, 3))
 
@@ -202,8 +219,30 @@ def CNNprocessing(data, datatest):
         classes = str(datatest['class'][i])
         label_test.append(classes)
 
-    label = to_categorical(label)
-    label_test = to_categorical(label_test)
+    label = np.asarray(label)
+    label_test = np.asarray(label_test)
+    label = label.astype(int)
+    label_test = label_test.astype(int)
+
+    for i in range(0, len(label)):
+        if label[i] == 49:
+            label[i] = 1
+        elif label[i] == 4:
+            label[i] = 2
+        elif label[i] == 103:
+            label[i] = 3
+        else:
+            label[i] = 4
+
+    for i in range(0, len(label_test)):
+        if label_test[i] == 49:
+            label_test[i] = 1
+        elif label_test[i] == 4:
+            label_test[i] = 2
+        elif label_test[i] == 103:
+            label_test[i] = 3
+        else:
+            label_test[i] = 4
 
     img_rows = 24
     img_cols = 24
@@ -223,6 +262,10 @@ def CNNprocessing(data, datatest):
 # preprocessing data
 CNNprocessing(data, datatest)
 
+# normalization
+features_CNN = features_CNN / 255.0
+features_test_CNN = features_test_CNN / 255.0
+
 batch_size = 100 # 100 data points fitted at each epoch
 epochs = 10 # total number of iterations
 
@@ -232,7 +275,7 @@ CNN.add(Conv2D(32, kernel_size=(3, 3),
                  input_shape=(24, 24, 3))) # convolutional layer
 CNN.add(Flatten())
 CNN.add(Dense(50, activation='relu')) # standard layer
-CNN.add(Dense(104, activation='softmax')) # classification layer
+CNN.add(Dense(5, activation='softmax')) # classification layer
 
 CNN.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
             optimizer='adam',
@@ -251,7 +294,7 @@ score = CNN.evaluate(features_test_CNN, label_test, verbose=0)
 runtime.append(datetime.now() - startTime)
 
 # CNN multiple layers
-mult_CNN = Sequential()
+mult_CNN = tf.keras.Sequential()
 mult_CNN.add(Conv2D(32, kernel_size=(3, 3),
                  activation='relu',
                  input_shape=(24, 24, 3))) # First convolutional layer
@@ -259,10 +302,10 @@ mult_CNN.add(Conv2D(64, (3, 3), activation='relu')) # Second convolutional layer
 mult_CNN.add(MaxPooling2D(pool_size=(2, 2))) # Max pooling / averaging values on 2*2 pixel grids
 mult_CNN.add(Dropout(0.25)) # dropping 25% of neurons to prevent overfitting
 mult_CNN.add(Flatten())
-mult_CNN.add(Dense(128, activation='relu')) # Standard dense layer w/ 128 neurons
+mult_CNN.add(Dense(50, activation='relu')) # Standard dense layer w/ 128 neurons
 mult_CNN.add(Dropout(0.5)) # dropping 50% of neurons to prevent overfitting
-mult_CNN.add(Dense(4, activation='softmax'))
-mult_CNNl.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+mult_CNN.add(Dense(5, activation='softmax'))
+mult_CNN.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               optimizer='adam',
               metrics=['accuracy'])
 
@@ -277,3 +320,46 @@ history = mult_CNN.fit(features_CNN, label,
 score = mult_CNN.evaluate(features_test_CNN, label_test, verbose=0)
 
 runtime.append(datetime.now() - startTime)
+
+# Convolutional layers optimization
+
+filter = [2, 4, 8]
+accuracy = []
+
+for k in filter:
+    for i in filter:
+        mult_CNN = tf.keras.Sequential()
+        mult_CNN.add(Conv2D(k, kernel_size=(3, 3),
+                            activation='relu',
+                            input_shape=(24, 24, 3)))  # First convolutional layer
+        mult_CNN.add(Conv2D(i, (3, 3), activation='relu'))  # Second convolutional layer
+        mult_CNN.add(MaxPooling2D(pool_size=(2, 2)))  # Max pooling / averaging values on 2*2 pixel grids
+        mult_CNN.add(Dropout(0.25))  # dropping 25% of neurons to prevent overfitting
+        mult_CNN.add(Flatten())
+        mult_CNN.add(Dense(50, activation='relu'))  # Standard dense layer w/ 128 neurons
+        mult_CNN.add(Dropout(0.5))  # dropping 50% of neurons to prevent overfitting
+        mult_CNN.add(Dense(5, activation='softmax'))
+        mult_CNN.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+                         optimizer='adam',
+                         metrics=['accuracy'])
+
+        # fit
+        startTime = datetime.now()
+        
+        history = mult_CNN.fit(features_CNN, label,
+                               batch_size=batch_size,
+                               epochs=epochs,
+                               verbose=2,
+                               validation_data=(features_test_CNN, label_test))
+        score = mult_CNN.evaluate(features_test_CNN, label_test, verbose=0)
+
+        runtime.append(datetime.now() - startTime)
+
+        accuracy.append(score[1])
+        print(accuracy)
+
+# Plot
+
+fig = plt.figure()
+ax = plt.axes(projection = '3d')
+ax.scatter(filter, filter, accuracy)
