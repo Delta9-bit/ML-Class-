@@ -47,7 +47,7 @@ def labelReduction (data, datatest): # keeps every class with 200+ observations
     classes = []
 
     for i in range(0, 104):
-        if count['id'][i]  > 500:
+        if count['id'][i]  > 200:
             var = count['class'][i]
             classes.append(var)
 
