@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Petals to the metal, Lucas Aurouet et Laurianne Moriceau -checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/notebook-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Petals to the metal, Lucas Aurouet et Laurianne Moriceau .ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Class-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Class-.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TDs/CNN.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -264,11 +264,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="test git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607003797676">
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607903148978">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="63" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606322757648" />
-    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607003797676" />
+    <state x="174" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607903148978" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1440.878@0.22.1440.878" timestamp="1603355063839" />
     <state x="462" y="69" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1606568733552">
       <screen x="0" y="0" width="1360" height="728" />
@@ -278,34 +278,34 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="92" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607385770970" />
-    <state x="-994" y="195" key="FileChooserDialogImpl" timestamp="1607873057031">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1607903865104">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607873057031" />
-    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607782557778" />
-    <state width="1281" height="928" key="GridCell.Tab.0.bottom" timestamp="1607876575442">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607903865104" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom" timestamp="1607904726320">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1281" height="928" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607876575442" />
-    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607828895838" />
+    <state width="1361" height="672" key="GridCell.Tab.0.bottom/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607904726320" />
     <state width="1419" height="157" key="GridCell.Tab.0.bottom/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
-    <state width="1281" height="928" key="GridCell.Tab.0.center" timestamp="1607876575442">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center" timestamp="1607904726320">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1281" height="928" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607876575442" />
-    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607828895838" />
+    <state width="1361" height="672" key="GridCell.Tab.0.center/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607904726320" />
     <state width="1419" height="157" key="GridCell.Tab.0.center/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1281" height="928" key="GridCell.Tab.0.left" timestamp="1607876575442">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left" timestamp="1607904726320">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1281" height="928" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607876575442" />
-    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607828895838" />
+    <state width="1361" height="672" key="GridCell.Tab.0.left/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607904726320" />
     <state width="1419" height="157" key="GridCell.Tab.0.left/0.22.1440.878@0.22.1440.878" timestamp="1603359068771" />
-    <state width="1281" height="928" key="GridCell.Tab.0.right" timestamp="1607876575442">
-      <screen x="-1280" y="-9" width="1280" height="984" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right" timestamp="1607904726320">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1281" height="928" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607876575442" />
-    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607828895838" />
+    <state width="1361" height="672" key="GridCell.Tab.0.right/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607904726320" />
     <state width="1419" height="157" key="GridCell.Tab.0.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068772" />
     <state width="1419" height="170" key="GridCell.Tab.1.bottom" timestamp="1603359068761">
       <screen x="0" y="22" width="1440" height="878" />
@@ -323,11 +323,11 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state width="1419" height="170" key="GridCell.Tab.1.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068760" />
-    <state x="135" y="0" width="998" height="708" key="SettingsEditor" timestamp="1606568759917">
+    <state x="135" y="0" width="998" height="708" key="SettingsEditor" timestamp="1607903886085">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="231" y="20" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1606327330680" />
-    <state x="135" y="0" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1606568759917" />
+    <state x="135" y="0" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607903886085" />
     <state x="9" y="104" key="SettingsEditor/0.22.1440.878@0.22.1440.878" timestamp="1603359712170" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603359778251">
       <screen x="0" y="22" width="1440" height="878" />
