@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc54d1e-ad3c-437e-9365-d9e0b7c2dc67" name="Default Changelist" comment="test git">
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Class-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Class-.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TDs/CNN.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Cours/Scoring/Scoring.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -274,11 +277,11 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="92" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607385770970" />
-    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1607905293424">
+    <state x="304" y="151" key="FileChooserDialogImpl" timestamp="1608647121230">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="-994" y="195" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1607873057031" />
-    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607905293424" />
+    <state x="304" y="151" key="FileChooserDialogImpl/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1608647121230" />
     <state width="1281" height="928" key="GridCell.Tab.0.bottom" timestamp="1608057027496">
       <screen x="-1280" y="-9" width="1280" height="984" />
     </state>
@@ -319,10 +322,10 @@
       <screen x="0" y="22" width="1440" height="878" />
     </state>
     <state width="1419" height="170" key="GridCell.Tab.1.right/0.22.1440.878@0.22.1440.878" timestamp="1603359068760" />
-    <state x="231" y="20" width="998" height="708" key="SettingsEditor" timestamp="1608052587683">
+    <state x="231" y="20" width="998" height="708" key="SettingsEditor" timestamp="1608663322131">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="231" y="20" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1608052587683" />
+    <state x="231" y="20" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@-1280.-9.1280.984" timestamp="1608663322131" />
     <state x="135" y="0" width="998" height="708" key="SettingsEditor/0.0.1360.728/-1280.-9.1280.984@0.0.1360.728" timestamp="1607905370965" />
     <state x="9" y="104" key="SettingsEditor/0.22.1440.878@0.22.1440.878" timestamp="1603359712170" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603359778251">

@@ -356,10 +356,12 @@ for k in filter:
         runtime.append(datetime.now() - startTime)
 
         accuracy.append(score[1])
-        print(accuracy)
 
 # Plot
+accuracy = np.asarray(accuracy)
+
+filter = np.meshgrid(filter)
 
 fig = plt.figure()
 ax = plt.axes(projection = '3d')
-ax.scatter(filter, filter, accuracy)
+ax.plot_surface(filter, filter, accuracy)
